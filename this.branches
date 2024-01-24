@@ -1,0 +1,5 @@
+class GitRepository {
+  constructor() {
+    this.branches = { master: [] };
+    this.currentBranch = 'master';
+  }
